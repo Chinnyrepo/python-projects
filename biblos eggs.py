@@ -1,12 +1,10 @@
 # Program Name:     Bilbo's Eggs Wholesaler Price Calculator
 #
-# Author:           Scott Thornton
+# Author:           Chinenye Okpalanze
 #
-# Date:             10-January-2020
+# Date:             18-June-2020
 #
-# Description:      Demonstration program for SAIT CPRG 100 (Manpower)
-#
-#                   prompt the user for the number of eggs they
+# Description:      Prompt the user for the number of eggs they
 #                   are planning to buy. Using an if elif ladder determine the
 #                   price per egg
 #
@@ -36,7 +34,7 @@ elif dozens < 11 :
 else :
     pricePerDozen = 0.35
 
-# now mulitply the toal number of eggs by the perDozen price divided by 12
+# now mulitply the total number of eggs by the perDozen price divided by 12
 
 pricePerEgg = pricePerDozen / 12
 totalCost = numberOfEggs * pricePerEgg
